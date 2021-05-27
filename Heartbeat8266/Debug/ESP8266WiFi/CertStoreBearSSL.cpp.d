@@ -1,4 +1,4 @@
-C\:\Users\andre\AppData\Local\Temp\VMBuilds\Heartbeat8266\esp8266_nodemcuv2\Debug\ESP8266WiFi\CertStoreBearSSL.cpp.o: \
+C\:\Users\andre\AppData\Local\Temp\VMBuilds\Heartbeat8266\esp8266_generic\Debug\ESP8266WiFi\CertStoreBearSSL.cpp.o: \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\libraries\ESP8266WiFi\src\CertStoreBearSSL.cpp \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\libraries\ESP8266WiFi\src\CertStoreBearSSL.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\cores\esp8266/Arduino.h \
@@ -44,8 +44,8 @@ C\:\Users\andre\AppData\Local\Temp\VMBuilds\Heartbeat8266\esp8266_nodemcuv2\Debu
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\cores\esp8266/Stream.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\cores\esp8266/md5.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\cores\esp8266/debug.h \
- C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\variants\nodemcu/pins_arduino.h \
- c\:\users\andre\appdata\local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\variants\generic\common.h \
+ C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\variants\generic/pins_arduino.h \
+ C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\variants\generic/common.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\libraries\ESP8266WiFi\src/BearSSLHelpers.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0/tools/sdk/include/bearssl/bearssl.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0/tools/sdk/include/bearssl/bearssl_hash.h \

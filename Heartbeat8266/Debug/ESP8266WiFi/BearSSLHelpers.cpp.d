@@ -1,4 +1,4 @@
-C\:\Users\andre\AppData\Local\Temp\VMBuilds\Heartbeat8266\esp8266_nodemcuv2\Debug\ESP8266WiFi\BearSSLHelpers.cpp.o: \
+C\:\Users\andre\AppData\Local\Temp\VMBuilds\Heartbeat8266\esp8266_generic\Debug\ESP8266WiFi\BearSSLHelpers.cpp.o: \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\libraries\ESP8266WiFi\src\BearSSLHelpers.cpp \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\libraries\ESP8266WiFi\src\BearSSLHelpers.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0/tools/sdk/include/bearssl/bearssl.h \
@@ -53,12 +53,12 @@ C\:\Users\andre\AppData\Local\Temp\VMBuilds\Heartbeat8266\esp8266_nodemcuv2\Debu
  c\:\users\andre\appdata\local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\bootloaders\eboot\spi_vendors.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\cores\esp8266/Updater.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\cores\esp8266/debug.h \
- C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\variants\nodemcu/pins_arduino.h \
- c\:\users\andre\appdata\local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\variants\generic\common.h \
+ C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\variants\generic/pins_arduino.h \
+ C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\variants\generic/common.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\cores\esp8266/flash_utils.h \
  c\:\users\andre\appdata\local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\bootloaders\eboot\flash.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\cores\esp8266/MD5Builder.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\cores\esp8266/WString.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\cores\esp8266/Stream.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\cores\esp8266/md5.h \
- C\:\Users\andre\AppData\Local\Temp\VMBuilds\Heartbeat8266\esp8266_nodemcuv2\Debug/core/Updater_Signing.h
+ C\:\Users\andre\AppData\Local\Temp\VMBuilds\Heartbeat8266\esp8266_generic\Debug/core/Updater_Signing.h

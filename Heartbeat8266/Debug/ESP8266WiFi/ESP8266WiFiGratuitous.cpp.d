@@ -1,4 +1,4 @@
-C\:\Users\andre\AppData\Local\Temp\VMBuilds\Heartbeat8266\esp8266_nodemcuv2\Debug\ESP8266WiFi\ESP8266WiFiGratuitous.cpp.o: \
+C\:\Users\andre\AppData\Local\Temp\VMBuilds\Heartbeat8266\esp8266_generic\Debug\ESP8266WiFi\ESP8266WiFiGratuitous.cpp.o: \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\libraries\ESP8266WiFi\src\ESP8266WiFiGratuitous.cpp \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0/tools/sdk/lwip2/include/lwip/etharp.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0/tools/sdk/lwip2/include/lwip/opt.h \

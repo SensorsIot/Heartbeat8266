@@ -1,4 +1,4 @@
-C\:\Users\andre\AppData\Local\Temp\VMBuilds\Heartbeat8266\esp8266_nodemcuv2\Debug\arduino_242711\UniversalTelegramBot.cpp.o: \
+C\:\Users\andre\AppData\Local\Temp\VMBuilds\Heartbeat8266\esp8266_generic\Debug\arduino_242711\UniversalTelegramBot.cpp.o: \
  D\:\Dropbox\Arduino\libraries\arduino_242711\src\UniversalTelegramBot.cpp \
  D\:\Dropbox\Arduino\libraries\arduino_242711\src\UniversalTelegramBot.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\cores\esp8266/Arduino.h \
@@ -44,8 +44,8 @@ C\:\Users\andre\AppData\Local\Temp\VMBuilds\Heartbeat8266\esp8266_nodemcuv2\Debu
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\cores\esp8266/Stream.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\cores\esp8266/md5.h \
  C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\cores\esp8266/debug.h \
- C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\variants\nodemcu/pins_arduino.h \
- c\:\users\andre\appdata\local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\variants\generic\common.h \
+ C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\variants\generic/pins_arduino.h \
+ C\:\Users\andre\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.0\variants\generic/common.h \
  D\:\Dropbox\Arduino\libraries\arduino_462011\src/ArduinoJson.h \
  D\:\Dropbox\Arduino\libraries\arduino_462011\src/ArduinoJson.hpp \
  D\:\Dropbox\Arduino\libraries\arduino_462011\src/ArduinoJson/Configuration.hpp \
