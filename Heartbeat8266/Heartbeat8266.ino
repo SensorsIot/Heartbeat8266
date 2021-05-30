@@ -35,6 +35,7 @@ WiFiClientSecure secured_client;
 UniversalTelegramBot bot(ALARM_BOT_TOKEN, secured_client);
 
 unsigned long lastMsg = millis();
+int failedConnections = 0;
 
 WiFiClient espClient;
 PubSubClient client(espClient);
@@ -81,13 +82,22 @@ void reconnect() {
             client.publish("outTopic", "hello world");
             // ... and resubscribe
             client.subscribe("heartbeatHUB/#");
+            failedConnections = 0;
         }
         else {
             Serial.print("failed, rc=");
             Serial.print(client.state());
             Serial.println(" try again in 5 seconds");
+            Serial.print("Alarm ");
+            Serial.println(failedConnections);
             // Wait 5 seconds before retrying
             delay(5000);
+            failedConnections++;
+            if (failedConnections >= 10) {
+
+                bot.sendMessage(CHAT_ID, "MQTT does not work", "");
+                failedConnections = 0;
+            }
         }
     }
 }
@@ -126,7 +136,7 @@ void loop() {
 
     if (millis() > interval + 130000) {
         Serial.println("Alarm");
-        bot.sendMessage(CHAT_ID, "Hub does not work", "");
+        bot.sendMessage(CHAT_ID, "Hub Heartbeat does not work", "");
         interval = millis();
     }
 }
