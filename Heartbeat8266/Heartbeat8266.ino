@@ -42,6 +42,14 @@ PubSubClient client(espClient);
 
 unsigned long interval;
 
+inline int32_t timeDiff(const unsigned long prev, const unsigned long next) {
+    return ((int32_t)(next - prev));
+}
+
+inline long timePassedSince(unsigned long timestamp) {
+    return timeDiff(timestamp, millis());
+}
+
 void setup_wifi() {
     Serial.print("Connecting to Wifi SSID ");
     Serial.print(ssid);
@@ -126,15 +134,15 @@ void loop() {
         reconnect();
     }
     client.loop();
-
-    unsigned long now = millis();
-    if (now - lastMsg > 60000) {
-        lastMsg = now;
-        Serial.println("Publish heartbeat: ");
+    
+    if (timeDiff(lastMsg, millis()) > 60000) {
+        lastMsg = millis();
+        Serial.print("Publish heartbeat: ");
+        Serial.println(millis());
         client.publish("heartbeatESP8266", "heartbeatESP8266");
     }
 
-    if (millis() > interval + 130000) {
+    if (timeDiff(interval, millis())> 130000) {
         Serial.println("Alarm");
         bot.sendMessage(CHAT_ID, "Hub Heartbeat does not work", "");
         interval = millis();
