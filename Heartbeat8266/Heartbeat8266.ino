@@ -24,7 +24,13 @@
 #include <PubSubClient.h>
 #include <credentials.h>
 
-// Update these with values suitable for your network.
+// If you do not want to use a credentials.h file, comment it and uncomment the lines below:
+/* #define mySSID "xxxx" // wifi name
+#define myPASSWORD "yyyyyyyyyyyyyy" // wifi password
+#define TELEGRAM_CERTIFICATE_ROOT "cert" // telegram cert
+#define CHAT_ID "zzzzzzzzz" // telegram chat id
+#define ALARM_BOT_TOKEN "aaaaa" // telegram bot
+*/
 
 const char* ssid = mySSID;
 const char* password = myPASSWORD;
